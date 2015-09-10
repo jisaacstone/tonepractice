@@ -1,39 +1,39 @@
 资产   就是   你 不用   工作    就  能   把 钱   放   到  你 口袋   里 的 东西
-14     22     4  22     12      2   3    4  3    2    2   4  42     4  0  10 
+13     44     3  44     14      4   2    3  2    4    4   3  34     3  0  10 
 zīchǎn jiùshì nǐ bùyòng gōngzuò jiù néng bǎ qián fàng daò nǐ kǒudaì lǐ de dōngxi
 assets that dont require work can still put money in your pocket
 
 很  多  这些   区域 都  是  位于  主要   的 红灯区
-4   1   2  1   12   1   2   23    42     0  311 
+3   1   4  1   14   1   4   42    34     0  211 
 hěn dūo zhèxiē qūyù duō shì wèiyú zhǔyaò de hóngdēngqū
 many of these areas are located in the main read light district
 
 并且    同时    会  清楚    这些   纸币  并非    法 偿
-24      33      2   10      21     42    21      4  3
+43      22      4   10      41     34    41      3  2
 bìngqiě tóngshí huì qīngchu zièxiē zhěbì bìngfēi fǎ cháng
 and at the same time clearly shows these notes are not legal tender
 
 村民   小组   的 行政      负责人  称为     "村民  小组  组长"
-13     44     0  32        233     13       13     44    44
+12     33     0  24        422     12       12     33    33
 cūnmín xiǎozǔ de xíngzhèng fùzérén chēngwéi cūnmín xiǎozǔ zǔzhǎng
 the administrative leader for the village group is called "village group leader"
 
 Wi-Fi 这个  术语  被  人们   普遍   误 以为  是  指  无线保真
-00    20    24    2   30     42     4  43    2   4   3241
+00    40    43    4   20     34     3  32    4   3   2431
 wi-fi zhège xhùyǔ bèi rénmen pǔbiàn wǔ yǐwéi shì zhǐ wúxiànbǎozhēn
 many people mistakenly beileve the term Wi-Fi stands for wireless fidelity.
 
 百度  搜索   结果   含有   大量    的 竞价    排名
-42    14     14     34     22      0  22      33
+34    13     13     23     44      0  44      22
 bǎidù sōusuǒ jiēguǒ hányǒu dàliàng de jìngjià páimíng
 Baidu search result page has many paid links (ads)
 
 高中     二 年级   和 一 年级   也 被  简称      为  高二  和 高一
-11       2  33     3  1  31     4  2   41        3   12    3  11
-gaōzhōng èr niánjí hé yī niánjī yě bèi jiǎnchēng wéi gaōèr hé gaōyī
+11       4  22     2  1  22     3  4   31        4   14    2  11
+gaōzhōng èr niánjí hé yī niánjí yě bèi jiǎnchēng wèi gaōèr hé gaōyī
 first and second year of high school can be abbreviated "gaoyi" and "gaoer"
 
 词 列表    表示    颜色  所  代表    的 等级
-4  24      42      23    4   24      0  42
+3  43      34      42    3   43      0  34
 cǐ lièbiǎo biǎoshì yánsì suǒ daìbiǎo de děngjí
 this list shows the colors associated with each level

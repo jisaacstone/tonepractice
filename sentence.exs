@@ -1,8 +1,11 @@
+#!/usr/bin/env elixir
+
 [file_name] = System.argv
 
 processinput = fn
   ("\n", _, _, result) -> result
   ("q" <> _, _, _, _) -> exit(:normal)
+  (" " <> rest, tones, lp, result) -> lp.(rest, tones, lp, result)
   (input, [{tones,pinyin}|tail], lp, {correct,total}) ->
     size = byte_size(tones)
     case String.split_at(input, size) do
@@ -13,7 +16,7 @@ processinput = fn
         IO.write(" \e[31m#{pinyin}\e[m")
         lp.(rest, tail, lp, {correct, total + size})
     end
-  (_, _, _, _) -> exit(:oops)
+  (eh?, state, _, _) -> exit({:oops, eh?, state})
   end
 
 getuserinput = fn
@@ -30,7 +33,8 @@ loop = fn
     lp.(t, [result|score], lp)
   end
 
-:random.seed(:erlang.now)
+<< a :: 32, b :: 32, c :: 32 >> = :crypto.rand_bytes(12)
+:random.seed(a,b,c)
 data = File.read!(file_name) |>
   String.split("\n\n") |>
   Stream.map(fn(str) ->
