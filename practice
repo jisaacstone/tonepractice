@@ -3,8 +3,8 @@
 [file_name] = System.argv
 
 processinput = fn
-  ("\n", _, _, result) -> result
-  ("q" <> _, _, _, _) -> exit(:normal)
+  ("\n", _, _, result) -> {:continue, result}
+  ("q" <> _, _, _, result) -> {:stop, result}
   (" " <> rest, tones, lp, result) -> lp.(rest, tones, lp, result)
   (input, [{tones,pinyin}|tail], lp, {correct,total}) ->
     size = byte_size(tones)
@@ -16,21 +16,29 @@ processinput = fn
         IO.write(" \e[31m#{pinyin}\e[m")
         lp.(rest, tail, lp, {correct, total + size})
     end
+  (eh?, [], _, result) ->
+    IO.write("unexpected #{eh?}\n")
+    {:continue, result}
   (eh?, state, _, _) -> exit({:oops, eh?, state})
   end
 
 getuserinput = fn
   (tonedata) ->
-    processinput.(IO.gets("\e[33m>\e[37m"), tonedata, processinput, {0,0})
+    processinput.(IO.gets(">"), tonedata, processinput, {0,0})
   end
 
 loop = fn
   ([], score, _) -> score
-  ([{hanzi, tonedata, english}|t], score, lp) ->
-    IO.write("\e[37m#{hanzi}\e[m\n")
-    result = getuserinput.(tonedata)
-    IO.write("\n#{english}\n")
-    lp.(t, [result|score], lp)
+  ([{hanzi, tonedata, english}|t], {totalcorrect, grandtotal}, lp) ->
+    IO.write("\e[37m#{hanzi}\n")
+    case getuserinput.(tonedata) do
+      {:stop, {correct, total}} ->
+        IO.write("\n")
+        {totalcorrect+correct, grandtotal+total}
+      {:continue, {correct, total}} ->
+        IO.write("\n#{english}\n")
+        lp.(t, {totalcorrect+correct,grandtotal+total}, lp)
+    end
   end
 
 << a :: 32, b :: 32, c :: 32 >> = :crypto.rand_bytes(12)
@@ -44,5 +52,6 @@ data = File.read!(file_name) |>
       english } end) |>
   Enum.shuffle()
 
-score = loop.(data, [], loop)
-IO.inspect(score)
+{correct, total} = loop.(data, {0,0}, loop)
+if (total > 0), do:
+  IO.write("\e[33m#{correct} of #{total}: #{trunc(correct/total*100)}%\e[m\n")

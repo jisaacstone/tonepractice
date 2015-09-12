@@ -1,0 +1,39 @@
+阿克有条粉红色的手绢
+14 3 2 324 0 34
+ākè yǒu tiáo fěnhóngsè de shǒujuàn
+Ake has a pink hand-towel
+
+他用手绢包沙土
+1 4 34 1 13
+tā yòng shǒujuàn bāo shātǔ
+he used the hand-towel to hold some sand
+
+结果手绢变得又脏又皱
+23 34 4 0 4 1 4 4
+jiéguǒ shǒujuàn biàn de yòu zhāng yòu zhòu
+so the hand-towel became dirty and wrinkled
+
+妈妈跟阿克开玩笑
+10 1 14 1 2 4
+māma gēn ākè kāi wán xiào
+mom and Ake laughed
+
+手绢弄的这样脏
+34 4 0 44 1
+shǒujuàn nòng de zhèyàng zāng
+the hand-towel you played with is so dirty
+
+自己也不会洗
+43 3 2 4 3
+zìjǐ yě bú hùi xǐ
+you can't clean it yourself
+
+送给树林里的小野兔算了！
+43 42 0 0 3 34 4 0
+sònggěi shùlín li de xiǎo yětù suàn le
+send it to the forest hare and forget it!
+
+真的，在离阿克家不远的树林里住着一只灰色的小野兔
+10 4 2 14 1 4 3 0 42 0 4 0 1 14 0 3 34
+zhēnde zài lí ākè jiā bù yuǎn de shùlín li zhù zhe yī zhī hūisè de xiǎo yětù
+In the forest near Ake's house there really lived a little grey hare
