@@ -37,3 +37,39 @@ send it to the forest hare and forget it!
 10 4 2 14 1 4 3 0 42 0 4 0 1 14 0 3 34
 zhēnde zài lí ākè jiā bù yuǎn de shùlín li zhù zhe yī zhī hūisè de xiǎo yětù
 In the forest near Ake's house there really lived a little grey hare
+
+这会儿小野兔正从阿克家的窗下走过
+4 40 3 34 4 2 14 1 0 1 3 4
+zhè huìer xiǎo yětù zhèng cóng ākè jiā de chuāng zǒu guò
+At that moment the little hare was walking by the window of Ake's house
+
+听见阿克妈妈的话
+10 14 10 0 4
+tīngjian ākè māma de huà
+heard what Ake's mom said
+
+他可不觉得是在开玩笑
+1 3 4 20 4 4 1 2 4
+tā kě bù juéde shì zài kāi wán xiào
+he did not know they were joking
+
+他多想有一条小手绢呀
+1 1 3 3 4 2 3 34 0
+tā duō xiǎng yǒu yì tiáo xiǎo shǒujuàn ya
+he had always wanted a little hand-towel
+
+像小朋友一样，擦嘴，擦手，又干净又神气
+4 3 23 24 1 3 1 3 4 14 4 24
+xiàng xiǎo péngyǒu yíyàng, cā zuǐ, cā shǒu, yòu gānjìng yòu shénqì
+wash hands and nose like the childred, clean and good-mannered
+
+于是，小野兔从窗台上拿走了手绢
+24 3 24 2 12 0 2 3 0 34
+yúshì, xiǎo yétù cóng chuāngtái shang ná zǒu le shǒujuàn
+and so he took the hand-towel from the widow sill
+
+还轻轻的说了声“谢谢”
+2 10 0 1 0 1 40
+hái qīngqing de shūo le shēng "xièxie"
+and said "thanks" in a soft voice
+

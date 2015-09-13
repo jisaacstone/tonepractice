@@ -20,12 +20,12 @@ processinput = fn
     IO.write("unexpected #{eh?}\n")
     {:continue, result}
   (eh?, state, _, _) -> exit({:oops, eh?, state})
-  end
+end
 
 getuserinput = fn
   (tonedata) ->
     processinput.(IO.gets(">"), tonedata, processinput, {0,0})
-  end
+end
 
 loop = fn
   ([], score, _) -> score
@@ -39,17 +39,27 @@ loop = fn
         IO.write("\n#{english}\n")
         lp.(t, {totalcorrect+correct,grandtotal+total}, lp)
     end
-  end
+end
+
+parse = fn
+  ([hanzi, tones, pinyin, english|_]) ->
+    { Regex.replace(~r/\s+/, hanzi, " "),
+      Enum.zip(String.split(tones), String.split(pinyin)),
+      english }
+  ([hanzi, tones, pinyin]) ->
+    { Regex.replace(~r/\s+/, hanzi, " "),
+      Enum.zip(String.split(tones), String.split(pinyin)),
+      "" }
+  (_) -> nil
+end
 
 << a :: 32, b :: 32, c :: 32 >> = :crypto.rand_bytes(12)
 :random.seed(a,b,c)
+
 data = File.read!(file_name) |>
   String.split("\n\n") |>
-  Stream.map(fn(str) ->
-    [hanzi, tones, pinyin, english|_] = String.split(str, "\n")
-    { Regex.replace(~r/\s+/, hanzi, " "),
-      Enum.zip(String.split(tones), String.split(pinyin)),
-      english } end) |>
+  Stream.map(fn(str) -> parse.(String.split(str, "\n")) end) |>
+  Stream.filter(&(&1 != nil)) |>
   Enum.shuffle()
 
 {correct, total} = loop.(data, {0,0}, loop)
