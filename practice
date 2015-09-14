@@ -1,6 +1,10 @@
 #!/usr/bin/env elixir
 
-[file_name] = System.argv
+{file_name, questions} = case System.argv do
+  [file_name, questions] -> {file_name, String.to_integer(questions)}
+  [file_name] -> {file_name, 10}
+  _ -> IO.puts("usage: practice file_name [num_questions]") && exit(:normal)
+end
 
 processinput = fn
   ("\n", _, _, result) -> {:continue, result}
@@ -60,7 +64,8 @@ data = File.read!(file_name) |>
   String.split("\n\n") |>
   Stream.map(fn(str) -> parse.(String.split(str, "\n")) end) |>
   Stream.filter(&(&1 != nil)) |>
-  Enum.shuffle()
+  Enum.shuffle() |>
+  Enum.take(questions)
 
 {correct, total} = loop.(data, {0,0}, loop)
 if (total > 0), do:
