@@ -127,3 +127,29 @@ the bubbles floated out the chimney of the little hare's house
 20 1 0 20 4 12 3 40
 yíge jiē zhe yíge, xiàng jīnyú tǔ pàopao
 one after the other like goldfish bubbles
+
+“哦，那只小野兔，佛家变魔术呢！”
+4 4 1 3 34 1 4 424 0
+ò, nà zhī xiǎo yétù, tā zài biànmóshù ne
+"Oh! the little hare is preforming magic tricks!"
+
+阿克快乐的说
+14 44 0 1
+ākè kuàilè de shuō
+Ake said happily
+
+可是，小野兔不该变这样的魔术
+34 3 34 4 1 4 44 0 24
+kěshì, xiǎo yětù bù gāi biàn zhèyàng de móshù
+but the little hare should no be able to do this kind of magic trick
+
+瞧，他的房子越飘越高了！
+2 1 0 20 4 1 4 1 0
+qiáo, tā de fángzi yuè piāo yuè gāo le
+look! his house is floating so high!
+
+阿克的妈妈担心极了
+14 0 10 11 2 0
+ākè de māma dānxīn jí le
+Ake's mom was very worried
+

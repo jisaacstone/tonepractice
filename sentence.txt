@@ -4,7 +4,7 @@ zīchǎn jiùshì nǐ bùyòng gōngzuò jiù néng bǎ qián fàng daò nǐ kǒ
 assets that dont require work can still put money in your pocket
 
 很  多  这些   区域 都  是  位于  主要   的 红灯区
-3   1   4  1   14   1   4   42    34     0  211 
+3   1   41     14   1   4   42    34     0  211 
 hěn dūo zhèxiē qūyù duō shì wèiyú zhǔyaò de hóngdēngqū
 many of these areas are located in the main read light district
 
@@ -34,6 +34,21 @@ gaōzhōng èr niánjí hé yī niánjí yě bèi jiǎnchēng wèi gaōèr hé g
 first and second year of high school can be abbreviated "gaoyi" and "gaoer"
 
 词 列表    表示    颜色  所  代表    的 等级
-3  43      34      42    3   43      0  34
+3  43      34      42    3   43      0  32
 cǐ lièbiǎo biǎoshì yánsì suǒ daìbiǎo de děngjí
 this list shows the colors associated with each level
+
+我们  这时   还  不必 考虑  每  个 房间     内  的 细节， 比如 门  把手、  水龙头，     以及 厨房    工作台    等
+30    42     2   44   34    3   0  21       4   0  42     32   2   33      322          32   22      142        3
+wǒmen zhèshí hái bùbì kǎolǜ měi ge fángjiān nèi de xìjíe, bǐrú mén bǎshǒu, shǔilóngtóu, yǐjí chúfáng gōngzuòtái děng
+We would not be worried about the precise measurements of each room, or things like the doorknobs, faucets, and countertops.
+
+我 把 那 张    纸  从   打字机 上    拉出来   的 时候，  它 被  撕   破了
+3  3  4  1     3   2    341    4     100      0  20      1  4   14   0
+wǒ bǎ nà zhāng zhǐ cóng dǎzìjī shàng lāchulai de shīhou, tā bèi sīpò le
+As I pulled the sheet out of the typewriter it tore.
+
+你 什么  能   甘  受   虐待   呢？
+3  30    2    1   4    44     0
+nǐ zěnme néng gān shòu nüèdài ne
+how could you submit to ill treatment?

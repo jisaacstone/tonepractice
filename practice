@@ -31,17 +31,33 @@ getuserinput = fn
     processinput.(IO.gets(">"), tonedata, processinput, {0,0})
 end
 
+endgame = fn
+  ({_, 0, _}, _) -> :ok
+  ({total, total, []}, _) ->
+    IO.write("\e[33m#{total} of #{total}: 100%\e[m\n")
+  ({correct, total, missed}, lp) ->
+    IO.write("\e[33m#{correct} of #{total}: #{trunc(correct/total*100)}%\n")
+    case IO.gets("[r]etry [q]uit?>") do
+      "r" <> _ -> lp.(Enum.shuffle(missed), {0, 0, []}, lp)
+      _ -> :ok
+    end
+end
+
+
 loop = fn
-  ([], score, _) -> score
-  ([{hanzi, tonedata, english}|t], {totalcorrect, grandtotal}, lp) ->
+  ([], score, lp) -> endgame.(score, lp)
+  ([{hanzi, tonedata, english}=h|t], {totalcorrect, grandtotal, missed}, lp) ->
     IO.write("\e[37m#{hanzi}\n")
     case getuserinput.(tonedata) do
       {:stop, {correct, total}} ->
         IO.write("\n")
-        {totalcorrect+correct, grandtotal+total}
+        endgame.({totalcorrect+correct, grandtotal+total, missed}, lp)
+      {:continue, {total, total}} ->
+        IO.write("\n#{english}\n")
+        lp.(t, {totalcorrect+total,grandtotal+total,missed}, lp)
       {:continue, {correct, total}} ->
         IO.write("\n#{english}\n")
-        lp.(t, {totalcorrect+correct,grandtotal+total}, lp)
+        lp.(t, {totalcorrect+correct,grandtotal+total,[h|missed]}, lp)
     end
 end
 
@@ -67,6 +83,4 @@ data = File.read!(file_name) |>
   Enum.shuffle() |>
   Enum.take(questions)
 
-{correct, total} = loop.(data, {0,0}, loop)
-if (total > 0), do:
-  IO.write("\e[33m#{correct} of #{total}: #{trunc(correct/total*100)}%\e[m\n")
+loop.(data, {0,0,[]}, loop)
