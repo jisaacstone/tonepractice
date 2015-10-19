@@ -1,17 +1,17 @@
 阿克有条粉红色的手绢
 14 3 2 324 0 34
 ākè yǒu tiáo fěnhóngsè de shǒujuàn
-Ake has a pink hand-towel
+Ake has a pink handkerchief
 
 他用手绢包沙土
 1 4 34 1 13
 tā yòng shǒujuàn bāo shātǔ
-he used the hand-towel to hold some sand
+he used the handkerchief to hold some sand
 
 结果手绢变得又脏又皱
 23 34 4 0 4 1 4 4
 jiéguǒ shǒujuàn biàn de yòu zhāng yòu zhòu
-so the hand-towel became dirty and wrinkled
+so the handkerchief became dirty and wrinkled
 
 妈妈跟阿克开玩笑
 10 1 14 1 2 4
@@ -21,7 +21,7 @@ mom and Ake laughed
 手绢弄的这样脏
 34 4 0 44 1
 shǒujuàn nòng de zhèyàng zāng
-the hand-towel you played with is so dirty
+the handkerchief you played with is so dirty
 
 自己也不会洗
 43 3 2 4 3
@@ -56,7 +56,7 @@ he did not know they were joking
 他多想有一条小手绢呀
 1 1 3 3 4 2 3 34 0
 tā duō xiǎng yǒu yì tiáo xiǎo shǒujuàn ya
-he had always wanted a little hand-towel
+he had always wanted a little handkerchief
 
 像小朋友一样，擦嘴，擦手，又干净又神气
 4 3 23 24 1 3 1 3 4 14 4 24
@@ -66,7 +66,7 @@ wash hands and nose like the childred, clean and good-mannered
 于是，小野兔从窗台上拿走了手绢
 24 3 34 2 12 0 2 3 0 34
 yúshì, xiǎo yětù cóng chuāngtái shang ná zǒu le shǒujuàn
-and so he took the hand-towel from the widow sill
+and so he took the handkerchief from the widow sill
 
 还轻轻的说了声“谢谢”
 2 10 0 1 0 1 40
@@ -86,12 +86,12 @@ turned on the faucet
 把手绢放进了水池里
 3 34 4 4 0 3 2 0
 bǎ shǒujuàn fàng jìn le shǔi chí li
-put the hand-towel in the sink
+put the handkerchief in the sink
 
-手卷真脏啊！
+手绢真脏啊！
 34 1 1 0
 shǒujuàn zhēn zāng a!
-the hand-towel is very dirty!
+the handkerchief is very dirty!
 
 小野兔拿来了肥皂，洗衣粉和洗涤剂
 3 34 2 0 0 24 313 2 324
@@ -153,3 +153,177 @@ look! his house is floating so high!
 ākè de māma dānxīn jí le
 Ake's mom was very worried
 
+鸟儿们认识这只小野兔，决定帮助他
+300 30 3 1 3 24 24 14 1
+niǎoermen rěnshi zhě zhī xiǎo yétù, juédìng bāngzhù tā
+the birds knew the rabiit and decided to help him
+
+他们把小野兔的房子推到一棵大树上，卡在树杈里
+10 3 3 24 0 20 1 4 4 1 4 4 0 3 4 4 4 0
+tāmen bǎ xiǎo yétù de fángzi tuī dào yì kē dà shù shang, qiǎ zài shù chà li
+they put the little hare's house onto a big tree
+
+他们说“我们的力气太小，只能这样了”
+10 1 40 0 40 4 3 3 2 4 4 0
+tāmen shuō "wòmen de lìqi tài xiǎo, zhǐ néng zhè yàng le"
+they said "we can only help you this much because we are not very strong"
+
+小野兔就只好住在树上
+3 24 4 3 3 4 4 4 0
+xiǎo yétù jiù zhǐ hǎo zhù zài shù shang
+so the little hare had to live in the tree
+
+他接通了水管，继续洗手绢
+1 11 0 33 44 3 34
+tā jiētōng le shuǐguǎn, jìxù xǐ shǒujuàn
+he hooked up the spout and continued washing the handkerchief
+
+这回，他一边洗一边念着：
+4 2 1 41 3 41 4 0
+zhè huí, tā yìbiān xǐ yìbiān liàn zhe:
+this time while washing he remembered:
+
+“浸一浸，泡一泡，洗涤剂呀放几滴”
+4 0 4 4 0 4 324 0 4 3 1
+"jìn yi jìn, pào yi pào, xǐdíjì ya fàng jǐ dī"
+"wash and bubble, wash and bubble, add just a few drops of soap"
+
+“搓一搓，洗一洗，手卷变得真干净”
+1 0 1 3 0 3 34 4 0 1 1 4
+"cuō yi cuō, xǐ yi xǐ, shǒujuàn biàn de zhēn gān jìng"
+rub and wash, rub and wash, the handkerchief becomes really clean!
+
+最后，小野兔把手绢拧干，晾在树枝上
+44 3 24 3 34 2 1 4 4 41 0
+zhìhòu, xiǎo yétù bǎ shǒujuàn níng gān, liàng zài shùzhī shang
+finally the little hare wrung the handkerchief dry and placed it on a branch to dry
+
+看着下面，他想：
+4 0 4 0 1 3
+kàn zhe xià mian, tā xiǎng:
+looking down he thought:
+
+“住在树上也挺不错的，可就是没有办法下去了”
+4 4 4 0 3 24 0 34 4 23 43 4 0 0
+zhù zài shù shang yě búcuò de, kějiù shì méiyǒu bànfǎ xià qu le
+"living in a tree is not bad, and certainly there is no way to get down"
+
+阿克经过这里的时候
+14 14 40 0 20
+ākè jīngguò zhèli de shíhou
+when Ake passed by
+
+发现树上有一块手绢在风中飘呀飘
+14 4 0 3 2 4 34 4 1 1 1 0 1
+fāxiàn shù shang yǒu yí kuài shǒujuàn zài fēng zhōng piāo ya piāo
+he discovered a handkerchief in a tree; floating in the wind
+
+这正是自己的手绢啊，怎么变干净啦？
+4 4 4 43 0 34 0 30 4 1 4 0
+zhè zhèng shì zìjǐ de shǒujuàn a, zěnme biàn gān jìng la?
+that there is my handkerchief. How did it get clean?
+
+阿克搬来木梯子，一步一步爬上树
+14 1 0 4 1 0 2 4 2 4 2 0 4
+ākè bān lai mù tī zi, yí bù yí bù pá shang shù
+Ake brought a wooden ladder and step by step climed up the tree
+
+哈！他发现了小野兔的木屋
+1 1 14 0 3 34 0 4 1
+hā! tā fāxiàn le xiǎo yětù de mù wū
+ha! he discovered the little hare's wooden room
+
+听呀，小野兔说起了梦话：
+1 0 3 34 1 0 0 4 4
+tīng ya, xiǎo yětù shuō qi le mèng huà:
+he heard the little hare talking in his sleep:
+
+嘻嘻嘻，我也有手绢了，
+1 1 1 3 3 3 34 0
+xī xī xī, wǒ yě yǒu shǒujuàn le
+hehehe - I also have a handkerchief
+
+是阿克的妈妈送的。嘻嘻嘻
+4 14 0 10 4 0 1 1 1
+shì ākè de māma sòng de. xī xī xī
+a gift from Ake's mom. hehehe
+
+啊，对了，妈妈是这样说过的
+1 4 0 10 4 44 1 0 0
+ā, duì le, māma shì zhèyàng shuō guo de
+ah, yes, mom did say that
+
+阿克赶快缩回了手
+14 34 1 2 0 3
+ākè gǎnkuài suō huí le shǒu
+Ake took back his hand at once
+
+阿克就顺着梯子下了树
+14 4 4 0 10 4 0 4
+ākè jiù shùn she tīzi xià le shù
+Ake went back down the latter
+
+他把梯子留在了树下
+1 3 10 2 4 0 4 0
+tā bǎ tīzi liú zài le shù xia
+he left the ladder by the tree
+
+还留了张字条
+2 2 0 1 42
+hái liú le zhāng zìtiáo 
+he also left a note
+
+上面写着：手卷送给小野兔，梯子也送给小野
+4 0 3 0 34 4 3 3 34 10 3 4 3 3 34
+shàng mian xiě zhe: shǒujuàn sòng gěi xiǎo yětù, tīzi yě sòng gěi xiǎo yětù
+on it he wrote: I give the handkerchief to the hare, I also give the ladder to the hare
+
+小野兔醒来，看见了字条
+3 34 3 0 4 0 0 42
+xiǎo yětù xǐnglai, kàn jian le zìtiáo
+when the little hare awoke he saw the note
+
+说：“太好了，我终于可以下树了！”
+1 4 3 0 3 12 33 4 4 0
+shuō: "tài hǎo le, wǒ zhōngyú kěyǐ xià shù le"
+he said: "Finally I can get down from the tree!"
+
+现在小野兔就住在树下了
+44 3 34 4 44 4 0 0
+xiànzài xiǎo yětù jiù zhùzài shù xia le
+Now the little hare lives in the tree
+
+他每天都要和村里的孩子们一起玩丢手绢的游戏
+1 3 1 1 4 2 1 0 0 200 43 2 1 34 0 2 4
+tā měi tiān dōu yào hé cūn li de háizimen yìqǐ wán diū shǒujuàn de yóu xì
+every day he played handkerchief games with the children of the village
+
+每次玩过以后，他们又都会洗洗手绢
+3 4 2 0 34 10 4 1 4 30 34
+měi cì wán guo yǐhòu, tāmen yòu dōu huì xǐxi shǒujuàn
+each time when they are finished playing they all wash their handkerchiefs
+
+不过，他对住在树上的小鸟说：
+24 1 4 44 4 0 0 3 3 1
+búguò, tā duì zhùzài shù shang de xiǎo niǎo shūo:
+but he said to the little birds who lived in the tree:
+
+“我再也不会放很多很多的洗涤剂了
+3 4 3 4 4 4 3 1 3 1 0 324 0
+wǒ zài yě bù huì fàng hěn dūo hěn dūo de xǐdíjì le
+I will never again use so much detergent
+
+那样我的房子会被泡泡带到月亮上的”
+44 3 0 20 4 4 40 4 4 40 0 0
+nàyàng wǒ de fángzi huì bèi pàopao dài dào yuèliang shang de
+if I do the bubbles will lift my house up to the moon
+
+是啊，那就再也没有长长的，长长的梯子可以下来了
+4 0 4 4 4 3 23 22 0 22 0 10 33 4 0 0
+shì a, nà jiù zài yě méiyǒu chángcháng de, chángcháng de tīzi kěyǐ xià lai le
+yes, there is no ladder so very very long that I could climb down
+
+兔子可不能老住在月亮上呀
+40 1 4 2 3 44 40 0 0
+tùzi kē bù néng lǎo zhùzài yuèliang zhang ya
+a rabbit shouldn't live on the moon

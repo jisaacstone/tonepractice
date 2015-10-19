@@ -52,3 +52,52 @@ As I pulled the sheet out of the typewriter it tore.
 3  30    2    1   4    44     0
 nǐ zěnme néng gān shòu nüèdài ne
 how could you submit to ill treatment?
+
+他 自 以为  了不起   而 得意忘形
+1  4  32    303      2  2442
+tā zì yǐwéi liǎobuxǐ ér déyìwàngxíng
+He is swollen with his own importance
+
+你 以为  我 可欺 吗？
+3  32    3  31   0
+nǐ yǐwéi wǒ kěqī ma?
+Do you think me a fool?
+
+他自以为了不起，其实算不了什么
+1 4 32  303     22  443   20
+tā yǐwéi liǎobuqǐ, qíshí suànbùliǎo shénme
+He thinks he's so important but really he is of no account.
+
+那么 我们  怎么  会  认为   它 是  门铃    呢？
+40   30    30    4   42     1  4   22      0
+nàme wǒmen zěnme huì rènwéi tā shì ménlíng ne?
+So how do we know it's a doobell?
+
+要  我 说，  她 的 头发  更   美
+1   3  1     1  0  20    4    3
+yāo wǒ shūo, tā de tóufa gèng měi
+I think her hair is more beautiful
+
+在  我 看  来， 这  件   事  非常     可疑
+4   3  4   2    4   4    4   12       32
+zài wǒ kàn lái, zhè jiàn shì fēicháng kěyí
+It all looks damned fishy to me
+
+在  我 看  来， 它 十全十美
+4   3  4   2    1  2223
+zài wǒ kàn lái, tā shíquánshíměi
+To me it is faultless.
+
+他被闪电击中
+1 4 34  14
+tā bèi shǎndiàn jīzhòng
+He was struck by lightning
+
+你 有  什么   权利   来  质问   我？
+3  3   20     24     2   44     3
+nǐ yǒu shénme quánlì lái zhìwèn wǒ?
+what right have you to question me?
+
+不必要  的 空间
+444     0  11
+bùbìyào de kōngjiān
