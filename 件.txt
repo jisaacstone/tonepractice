@@ -1,0 +1,74 @@
+外套
+44
+wàitào
+coat / jacket
+
+内衣
+41
+nèiyī
+undergarment
+
+毛衣
+21
+máoyī
+(wool) sweater
+
+衬衫
+41
+chènshān
+shirt / blouse
+
+背心
+41
+bèixīn
+sleeveless garment (vest, waistcoat, singlet, tank top etc)
+
+家具
+14
+jiājù
+furniture
+
+大衣
+41
+dàyī
+overcoat / cloak
+
+上衣
+41
+shàngyī
+jacket / outer garment
+
+风衣
+11
+fēngyī
+windbreaker
+
+行李
+20
+xíngli
+luggage
+
+雨衣
+31
+yǔyī
+rain jacket
+
+衣服
+10
+yīfu
+clothes
+
+乐器
+44
+yuèqì
+musical instrument
+
+皮具
+24
+píjù
+leather products
+
+体恤衫
+341
+tǐxùshān
+T-shirt
